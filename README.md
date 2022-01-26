@@ -3,12 +3,13 @@ This project addresses the semantic segmentation task in a real-time autonomous 
 
 ## Datasets
 Download (real-world) CamVid dataset from [Google Drive](https://drive.google.com/file/d/1CKtkLRVU4tGbqLSyFEtJMoZV2ZZ2KDeA/view?usp=sharing) 
+
 Download (synthetic) IDDA dataset from [Google Drive](https://drive.google.com/file/d/1GiUjXp1YBvnJjAf1un07hdHFUrchARa0/view)
   
 ## Train
-# 1) segmentation train (BiSeNet)
+### 1) segmentation train (BiSeNet)
 python seg_train.py
-# 2) adversarial train for unsupervised domain adaptation (IDDA+CamVid)
+### 2) adversarial train for unsupervised domain adaptation (IDDA+CamVid)
 python adv_train.py
 
 ## Test
