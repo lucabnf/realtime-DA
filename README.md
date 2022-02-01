@@ -14,3 +14,6 @@ python adv_train.py
 
 ## Test
 python eval.py
+
+## Paper
+realtime-DA.pdf
